@@ -1,0 +1,19 @@
+[project]
+name = "ai-concepts"
+version = "0.1.0"
+description = "Notes + runnable notebooks for 23 AI engineering concepts"
+readme = "README.md"
+authors = [
+    { name = "Myles Thomas", email = "mylescgthomas@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.5",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
