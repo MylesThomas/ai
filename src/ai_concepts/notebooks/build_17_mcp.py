@@ -1,4 +1,4 @@
-"""Build notebooks/17_mcp.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 17_mcp.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_17_mcp.py
 """

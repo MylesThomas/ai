@@ -1,4 +1,4 @@
-"""Build notebooks/10_loop_engineering.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 10_loop_engineering.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_10_loop_engineering.py
 """

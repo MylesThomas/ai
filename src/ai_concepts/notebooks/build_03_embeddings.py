@@ -1,4 +1,4 @@
-"""Build notebooks/03_embeddings.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 03_embeddings.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_03_embeddings.py
 """

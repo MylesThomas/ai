@@ -1,4 +1,4 @@
-"""Build notebooks/21_guardrails.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 21_guardrails.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_21_guardrails.py
 """

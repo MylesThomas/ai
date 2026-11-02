@@ -1,4 +1,4 @@
-"""Build notebooks/12_function_calling.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 12_function_calling.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_12_function_calling.py
 """

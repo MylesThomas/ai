@@ -1,4 +1,4 @@
-"""Build notebooks/06_chunking.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 06_chunking.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_06_chunking.py
 """

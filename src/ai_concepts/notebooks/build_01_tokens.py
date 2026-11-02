@@ -1,4 +1,4 @@
-"""Build notebooks/01_tokens.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 01_tokens.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_01_tokens.py
 """

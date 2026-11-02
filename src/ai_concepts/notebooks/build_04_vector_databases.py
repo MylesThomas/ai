@@ -1,4 +1,4 @@
-"""Build notebooks/04_vector_databases.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 04_vector_databases.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_04_vector_databases.py
 """

@@ -1,4 +1,4 @@
-"""Build notebooks/02_context_windows.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 02_context_windows.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_02_context_windows.py
 """

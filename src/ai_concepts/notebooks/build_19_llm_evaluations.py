@@ -1,4 +1,4 @@
-"""Build notebooks/19_llm_evaluations.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 19_llm_evaluations.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_19_llm_evaluations.py
 """

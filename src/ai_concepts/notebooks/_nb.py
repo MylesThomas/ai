@@ -9,7 +9,7 @@ from nbconvert import HTMLExporter
 from nbconvert.preprocessors import ExecutePreprocessor
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
-NOTEBOOK_DIR = PROJECT_ROOT / "notebooks"
+NOTEBOOK_DIR = Path(__file__).resolve().parent
 LOG_DIR = PROJECT_ROOT / "src/ai_concepts/logs"
 
 log = logging.getLogger("nb")
@@ -38,7 +38,7 @@ def code(source: str) -> nbformat.NotebookNode:
 
 
 def build(name: str, cells: list, execute: bool = True, timeout: int = 600) -> None:
-    """Write notebooks/<name>.ipynb, optionally execute it, and export notebooks/<name>.html."""
+    """Write <name>.ipynb next to this file, optionally execute it, and export <name>.html."""
     setup_logging("build_" + name)
     NOTEBOOK_DIR.mkdir(parents=True, exist_ok=True)
     nb_path = NOTEBOOK_DIR / (name + ".ipynb")

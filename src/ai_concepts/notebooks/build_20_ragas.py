@@ -1,4 +1,4 @@
-"""Build notebooks/20_ragas.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 20_ragas.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_20_ragas.py
 """

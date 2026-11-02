@@ -1,4 +1,4 @@
-"""Build notebooks/11_structured_outputs.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 11_structured_outputs.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_11_structured_outputs.py
 """

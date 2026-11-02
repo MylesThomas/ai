@@ -1,4 +1,4 @@
-"""Build notebooks/13_ai_agents.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 13_ai_agents.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_13_ai_agents.py
 """

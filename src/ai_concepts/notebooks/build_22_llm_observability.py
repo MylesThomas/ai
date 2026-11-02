@@ -1,4 +1,4 @@
-"""Build notebooks/22_llm_observability.ipynb + .html. Edit notes here, never the .ipynb.
+"""Build 22_llm_observability.ipynb + .html (same folder). Edit notes here, never the .ipynb.
 
     uv run python src/ai_concepts/notebooks/build_22_llm_observability.py
 """
