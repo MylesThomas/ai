@@ -5,7 +5,7 @@ Notes + runnable code for 23 AI engineering concepts (tokens → LLMOps).
 Each topic has a build script that generates a notebook and an HTML export:
 
 ```
-src/ai_concepts/notebooks/build_01_tokens.py  ->  notebooks/01_tokens.ipynb + notebooks/01_tokens.html
+src/ai_concepts/notebooks/build_01_tokens.py  ->  01_tokens.ipynb + 01_tokens.html (same folder)
 ```
 
 **Take notes in the build scripts, not the `.ipynb`.** Notebooks are regenerated (see `RULES.md`).
@@ -17,7 +17,7 @@ uv sync
 uv run python src/ai_concepts/notebooks/build_07_rag.py      # one topic
 uv run python src/ai_concepts/notebooks/build_all.py         # all topics
 uv run python src/ai_concepts/notebooks/build_all.py 07 12   # a subset
-uv run jupyter lab notebooks/                                # scratch-run interactively
+uv run jupyter lab src/ai_concepts/notebooks/                               # scratch-run interactively
 ```
 
 ## Topics

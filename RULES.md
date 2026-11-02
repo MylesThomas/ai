@@ -7,7 +7,7 @@ Build scripts generate notebooks. Do not edit `.ipynb` files directly.
 ```
 # One topic:
 uv run python src/ai_concepts/notebooks/build_01_tokens.py
-# Output: notebooks/01_tokens.ipynb + notebooks/01_tokens.html
+# Output: src/ai_concepts/notebooks/01_tokens.ipynb + 01_tokens.html
 
 # All topics (or a subset by number):
 uv run python src/ai_concepts/notebooks/build_all.py
