@@ -28,6 +28,7 @@ uv run jupyter lab src/ai_concepts/notebooks/                               # sc
 | 02 | Context windows | 14 | Agentic workflows |
 | 03 | Embeddings | 15 | LangGraph |
 | 04 | Vector databases | 16 | LangChain |
+| 04b | DuckDB (vector search + metrics in one file) | | |
 | 05 | Semantic search | 17 | MCP |
 | 06 | Chunking | 18 | Agent memory |
 | 07 | RAG | 19 | LLM evaluations |

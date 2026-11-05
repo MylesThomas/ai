@@ -16,7 +16,7 @@ log = logging.getLogger("build_all")
 
 
 def main(only: list[str]) -> None:
-    scripts = sorted(HERE.glob("build_[0-9][0-9]_*.py"))
+    scripts = sorted(HERE.glob("build_[0-9][0-9]*_*.py"))  # build_04_..., build_04b_...
     if only:
         scripts = [s for s in scripts if s.stem.split("_")[1] in only]
     failed = []
